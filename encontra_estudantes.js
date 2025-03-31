@@ -7,5 +7,5 @@ function buscaInformacao(lista, chave, valor) {
 const estudanteEncontrado = buscaInformacao(estudantes, "nome", "Juliet");
 console.log(estudanteEncontrado);
 
-const telefoneEstudante = buscaInformacao(estudantes, "telefone", "9466883489") // undefined;
+const telefoneEstudante = buscaInformacao(estudantes, "telefone", "9466883489");
 console.log(telefoneEstudante);
